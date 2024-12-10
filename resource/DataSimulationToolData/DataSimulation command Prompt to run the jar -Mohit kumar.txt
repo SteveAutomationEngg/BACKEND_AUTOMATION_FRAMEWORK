@@ -1,0 +1,551 @@
+Microsoft Windows [Version 10.0.19045.5073]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\TEKPYRAMID DOC\DataSimulationToolData>java -jar "D:\TEKPYRAMID DOC\DataSimulationToolData\trxn_simulation.jar" "D:\TEKPYRAMID DOC\DataSimulationToolData\bank.xlsx"
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+HTTP/1.1 200
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Mon, 25 Nov 2024 10:15:04 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "Transaction_ID": "SIB012001706",
+    "Transaction_Mode": "ONLINE",
+    "Transaction_Date": "25-11-2024",
+    "Transaction_Amount": "199.00",
+    "Transaction_Time": "11:01:28:930 ",
+    "Transaction_Type": "Transfer",
+    "Transaction_Status": "Completed",
+    "Description": "Payer to Payee transaction via online mode",
+    "Currency": "INR",
+    "Location": "Mumbai Maharastra",
+    "Authorization_Code": "C123",
+    "Merchant_Information": "Merchant Dharavi Mumbai",
+    "Batch_Number": "06545678",
+    "Recurring_Indicator": "yes",
+    "Tax_Information": "GS34567S",
+    "Risk_Assessment_Score": "199",
+    "Promotion_Coupon_Code": "CH123",
+    "Exchange_Rate": "67",
+    "Transaction_Code": "TR12",
+    "Notes": "This is a merchant transaction.",
+    "Reference_Number": "REF991",
+    "Device_Information": "xiomi Note11",
+    "MCC": "M123",
+    "CVM": "OTP",
+    "Regulatory_Compliance_Information": "KYC",
+    "isUPITransaction": "true",
+    "Sender_Source": "Remitter",
+    "Recipient_Destination": "Benificiary",
+    "Payer_Details": {
+        "Payer_PSP": "Google Pay",
+        "Payer_Name": "Payer",
+        "Bank_Account": "HDFC",
+        "IFSC": "HDF01",
+        "Account_Type": "Savings",
+        "Address": "payer_address@123",
+        "Mobile_Number": "9887776676",
+        "Mail_Id": "mohoan@gmail.com",
+        "Ip_Address": "1235@fghj",
+        "Balance": "690000.90"
+    },
+    "Payee_Details": {
+        "Payee_PSP": "Google Pay",
+        "Payee_Name": "Payee",
+        "Bank_Account": "ICICI",
+        "IFSC": "ICIC01",
+        "Account_Type": "Savings",
+        "Address": "payee_address@123",
+        "Mobile_Number": "9886662222",
+        "Mail_Id": "deepak.h@gmail.com"
+    }
+}
+HTTP/1.1 200
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Mon, 25 Nov 2024 10:15:04 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "Transaction_ID": "SIB01200573",
+    "Transaction_Mode": "ONLINE",
+    "Transaction_Date": "25-11-2024",
+    "Transaction_Amount": "5000.00",
+    "Transaction_Time": "11:01:28:930 ",
+    "Transaction_Type": "Transfer",
+    "Transaction_Status": "Completed",
+    "Description": "Payer to Payee transaction via online mode",
+    "Currency": "INR",
+    "Location": "Mumbai Maharastra",
+    "Authorization_Code": "C123",
+    "Merchant_Information": "Merchant Dharavi Mumbai",
+    "Batch_Number": "06545678",
+    "Recurring_Indicator": "yes",
+    "Tax_Information": "GS34567S",
+    "Risk_Assessment_Score": "199",
+    "Promotion_Coupon_Code": "CH123",
+    "Exchange_Rate": "67",
+    "Transaction_Code": "TR12",
+    "Notes": "This is a merchant transaction.",
+    "Reference_Number": "REF991",
+    "Device_Information": "xiomi Note11",
+    "MCC": "M123",
+    "CVM": "OTP",
+    "Regulatory_Compliance_Information": "KYC",
+    "isUPITransaction": "true",
+    "Sender_Source": "Remitter",
+    "Recipient_Destination": "Benificiary",
+    "Payer_Details": {
+        "Payer_PSP": "Whatsapp Pay",
+        "Payer_Name": "Payer",
+        "Bank_Account": "HDFC",
+        "IFSC": "HDF01",
+        "Account_Type": "Savings",
+        "Address": "payer_address@123",
+        "Mobile_Number": "9887776676",
+        "Mail_Id": "mohoan@gmail.com",
+        "Ip_Address": "1235@fghj",
+        "Balance": "690000.90"
+    },
+    "Payee_Details": {
+        "Payee_PSP": "Whatsapp Pay",
+        "Payee_Name": "Payee",
+        "Bank_Account": "ICICI",
+        "IFSC": "ICIC01",
+        "Account_Type": "Savings",
+        "Address": "payee_address@123",
+        "Mobile_Number": "9886662222",
+        "Mail_Id": "deepak.h@gmail.com"
+    }
+}
+HTTP/1.1 200
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Mon, 25 Nov 2024 10:15:05 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "Transaction_ID": "SIB012003585",
+    "Transaction_Mode": "ONLINE",
+    "Transaction_Date": "25-11-2024",
+    "Transaction_Amount": "150000.50",
+    "Transaction_Time": "11:01:28:930 ",
+    "Transaction_Type": "Transfer",
+    "Transaction_Status": "Completed",
+    "Description": "Payer to Payee transaction via online mode",
+    "Currency": "INR",
+    "Location": "Mumbai Maharastra",
+    "Authorization_Code": "C123",
+    "Merchant_Information": "Merchant Dharavi Mumbai",
+    "Batch_Number": "06545678",
+    "Recurring_Indicator": "yes",
+    "Tax_Information": "GS34567S",
+    "Risk_Assessment_Score": "199",
+    "Promotion_Coupon_Code": "CH123",
+    "Exchange_Rate": "67",
+    "Transaction_Code": "TR12",
+    "Notes": "This is a merchant transaction.",
+    "Reference_Number": "REF991",
+    "Device_Information": "xiomi Note11",
+    "MCC": "M123",
+    "CVM": "OTP",
+    "Regulatory_Compliance_Information": "KYC",
+    "isUPITransaction": "true",
+    "Sender_Source": "Remitter",
+    "Recipient_Destination": "Benificiary",
+    "Payer_Details": {
+        "Payer_PSP": "PhonePay",
+        "Payer_Name": "Payer",
+        "Bank_Account": "HDFC",
+        "IFSC": "HDF01",
+        "Account_Type": "Savings",
+        "Address": "payer_address@123",
+        "Mobile_Number": "9887776676",
+        "Mail_Id": "mohoan@gmail.com",
+        "Ip_Address": "1235@fghj",
+        "Balance": "690000.90"
+    },
+    "Payee_Details": {
+        "Payee_PSP": "PhonePay",
+        "Payee_Name": "Payee",
+        "Bank_Account": "ICICI",
+        "IFSC": "ICIC01",
+        "Account_Type": "Savings",
+        "Address": "payee_address@123",
+        "Mobile_Number": "9886662222",
+        "Mail_Id": "deepak.h@gmail.com"
+    }
+}
+HTTP/1.1 200
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Mon, 25 Nov 2024 10:15:05 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "Transaction_ID": "SIB012007842",
+    "Transaction_Mode": "ONLINE",
+    "Transaction_Date": "25-11-2024",
+    "Transaction_Amount": "600000.00",
+    "Transaction_Time": "11:01:28:930 ",
+    "Transaction_Type": "Transfer",
+    "Transaction_Status": "Completed",
+    "Description": "Payer to Payee transaction via online mode",
+    "Currency": "INR",
+    "Location": "Mumbai Maharastra",
+    "Authorization_Code": "C123",
+    "Merchant_Information": "Merchant Dharavi Mumbai",
+    "Batch_Number": "06545678",
+    "Recurring_Indicator": "yes",
+    "Tax_Information": "GS34567S",
+    "Risk_Assessment_Score": "199",
+    "Promotion_Coupon_Code": "CH123",
+    "Exchange_Rate": "67",
+    "Transaction_Code": "TR12",
+    "Notes": "This is a merchant transaction.",
+    "Reference_Number": "REF991",
+    "Device_Information": "xiomi Note11",
+    "MCC": "M123",
+    "CVM": "OTP",
+    "Regulatory_Compliance_Information": "KYC",
+    "isUPITransaction": "true",
+    "Sender_Source": "Remitter",
+    "Recipient_Destination": "Benificiary",
+    "Payer_Details": {
+        "Payer_PSP": "PaytmPay",
+        "Payer_Name": "Payer",
+        "Bank_Account": "HDFC",
+        "IFSC": "HDF01",
+        "Account_Type": "Savings",
+        "Address": "payer_address@123",
+        "Mobile_Number": "9887776676",
+        "Mail_Id": "mohoan@gmail.com",
+        "Ip_Address": "1235@fghj",
+        "Balance": "690000.90"
+    },
+    "Payee_Details": {
+        "Payee_PSP": "PaytmPay",
+        "Payee_Name": "Payee",
+        "Bank_Account": "ICICI",
+        "IFSC": "ICIC01",
+        "Account_Type": "Savings",
+        "Address": "payee_address@123",
+        "Mobile_Number": "9886662222",
+        "Mail_Id": "deepak.h@gmail.com"
+    }
+}
+HTTP/1.1 200
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Mon, 25 Nov 2024 10:15:05 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "Transaction_ID": "SIB012007316",
+    "Transaction_Mode": "ONLINE",
+    "Transaction_Date": "25-11-2024",
+    "Transaction_Amount": "489000.00",
+    "Transaction_Time": "11:01:28:930 ",
+    "Transaction_Type": "Transfer",
+    "Transaction_Status": "Completed",
+    "Description": "Payer to Payee transaction via online mode",
+    "Currency": "INR",
+    "Location": "Mumbai Maharastra",
+    "Authorization_Code": "C123",
+    "Merchant_Information": "Merchant Dharavi Mumbai",
+    "Batch_Number": "06545678",
+    "Recurring_Indicator": "yes",
+    "Tax_Information": "GS34567S",
+    "Risk_Assessment_Score": "199",
+    "Promotion_Coupon_Code": "CH123",
+    "Exchange_Rate": "67",
+    "Transaction_Code": "TR12",
+    "Notes": "This is a merchant transaction.",
+    "Reference_Number": "REF991",
+    "Device_Information": "xiomi Note11",
+    "MCC": "M123",
+    "CVM": "OTP",
+    "Regulatory_Compliance_Information": "KYC",
+    "isUPITransaction": "true",
+    "Sender_Source": "Remitter",
+    "Recipient_Destination": "Benificiary",
+    "Payer_Details": {
+        "Payer_PSP": "Amazon Pay",
+        "Payer_Name": "Payer",
+        "Bank_Account": "HDFC",
+        "IFSC": "HDF01",
+        "Account_Type": "Savings",
+        "Address": "payer_address@123",
+        "Mobile_Number": "9887776676",
+        "Mail_Id": "mohoan@gmail.com",
+        "Ip_Address": "1235@fghj",
+        "Balance": "690000.90"
+    },
+    "Payee_Details": {
+        "Payee_PSP": "Amazon Pay",
+        "Payee_Name": "Payee",
+        "Bank_Account": "ICICI",
+        "IFSC": "ICIC01",
+        "Account_Type": "Savings",
+        "Address": "payee_address@123",
+        "Mobile_Number": "9886662222",
+        "Mail_Id": "deepak.h@gmail.com"
+    }
+}
+HTTP/1.1 200
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Mon, 25 Nov 2024 10:15:06 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "Transaction_ID": "SIB012008779",
+    "Transaction_Mode": "ONLINE",
+    "Transaction_Date": "25-11-2024",
+    "Transaction_Amount": "199.01",
+    "Transaction_Time": "11:01:28:930 ",
+    "Transaction_Type": "Transfer",
+    "Transaction_Status": "Completed",
+    "Description": "Payer to Payee transaction via online mode",
+    "Currency": "INR",
+    "Location": "Mumbai Maharastra",
+    "Authorization_Code": "C123",
+    "Merchant_Information": "Merchant Dharavi Mumbai",
+    "Batch_Number": "06545678",
+    "Recurring_Indicator": "yes",
+    "Tax_Information": "GS34567S",
+    "Risk_Assessment_Score": "199",
+    "Promotion_Coupon_Code": "CH123",
+    "Exchange_Rate": "67",
+    "Transaction_Code": "TR12",
+    "Notes": "This is a merchant transaction.",
+    "Reference_Number": "REF991",
+    "Device_Information": "xiomi Note11",
+    "MCC": "M123",
+    "CVM": "OTP",
+    "Regulatory_Compliance_Information": "KYC",
+    "isUPITransaction": "true",
+    "Sender_Source": "Remitter",
+    "Recipient_Destination": "Benificiary",
+    "Payer_Details": {
+        "Payer_PSP": "Google Pay",
+        "Payer_Name": "Payer",
+        "Bank_Account": "HDFC",
+        "IFSC": "HDF01",
+        "Account_Type": "Savings",
+        "Address": "payer_address@123",
+        "Mobile_Number": "9887776676",
+        "Mail_Id": "mohoan@gmail.com",
+        "Ip_Address": "1235@fghj",
+        "Balance": "690000.90"
+    },
+    "Payee_Details": {
+        "Payee_PSP": "Google Pay",
+        "Payee_Name": "Payee",
+        "Bank_Account": "ICICI",
+        "IFSC": "ICIC01",
+        "Account_Type": "Savings",
+        "Address": "payee_address@123",
+        "Mobile_Number": "9886662222",
+        "Mail_Id": "deepak.h@gmail.com"
+    }
+}
+HTTP/1.1 200
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Mon, 25 Nov 2024 10:15:06 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "Transaction_ID": "SIB012007546",
+    "Transaction_Mode": "ONLINE",
+    "Transaction_Date": "25-11-2024",
+    "Transaction_Amount": "5000.01",
+    "Transaction_Time": "11:01:28:930 ",
+    "Transaction_Type": "Transfer",
+    "Transaction_Status": "Completed",
+    "Description": "Payer to Payee transaction via online mode",
+    "Currency": "INR",
+    "Location": "Mumbai Maharastra",
+    "Authorization_Code": "C123",
+    "Merchant_Information": "Merchant Dharavi Mumbai",
+    "Batch_Number": "06545678",
+    "Recurring_Indicator": "yes",
+    "Tax_Information": "GS34567S",
+    "Risk_Assessment_Score": "199",
+    "Promotion_Coupon_Code": "CH123",
+    "Exchange_Rate": "67",
+    "Transaction_Code": "TR12",
+    "Notes": "This is a merchant transaction.",
+    "Reference_Number": "REF991",
+    "Device_Information": "xiomi Note11",
+    "MCC": "M123",
+    "CVM": "OTP",
+    "Regulatory_Compliance_Information": "KYC",
+    "isUPITransaction": "true",
+    "Sender_Source": "Remitter",
+    "Recipient_Destination": "Benificiary",
+    "Payer_Details": {
+        "Payer_PSP": "Whatsapp Pay",
+        "Payer_Name": "Payer",
+        "Bank_Account": "HDFC",
+        "IFSC": "HDF01",
+        "Account_Type": "Savings",
+        "Address": "payer_address@123",
+        "Mobile_Number": "9887776676",
+        "Mail_Id": "mohoan@gmail.com",
+        "Ip_Address": "1235@fghj",
+        "Balance": "690000.90"
+    },
+    "Payee_Details": {
+        "Payee_PSP": "Whatsapp Pay",
+        "Payee_Name": "Payee",
+        "Bank_Account": "ICICI",
+        "IFSC": "ICIC01",
+        "Account_Type": "Savings",
+        "Address": "payee_address@123",
+        "Mobile_Number": "9886662222",
+        "Mail_Id": "deepak.h@gmail.com"
+    }
+}
+HTTP/1.1 200
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Mon, 25 Nov 2024 10:15:06 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "Transaction_ID": "SIB012005694",
+    "Transaction_Mode": "ONLINE",
+    "Transaction_Date": "25-11-2024",
+    "Transaction_Amount": "150000.51",
+    "Transaction_Time": "11:01:28:930 ",
+    "Transaction_Type": "Transfer",
+    "Transaction_Status": "Completed",
+    "Description": "Payer to Payee transaction via online mode",
+    "Currency": "INR",
+    "Location": "Mumbai Maharastra",
+    "Authorization_Code": "C123",
+    "Merchant_Information": "Merchant Dharavi Mumbai",
+    "Batch_Number": "06545678",
+    "Recurring_Indicator": "yes",
+    "Tax_Information": "GS34567S",
+    "Risk_Assessment_Score": "199",
+    "Promotion_Coupon_Code": "CH123",
+    "Exchange_Rate": "67",
+    "Transaction_Code": "TR12",
+    "Notes": "This is a merchant transaction.",
+    "Reference_Number": "REF991",
+    "Device_Information": "xiomi Note11",
+    "MCC": "M123",
+    "CVM": "OTP",
+    "Regulatory_Compliance_Information": "KYC",
+    "isUPITransaction": "true",
+    "Sender_Source": "Remitter",
+    "Recipient_Destination": "Benificiary",
+    "Payer_Details": {
+        "Payer_PSP": "PhonePay",
+        "Payer_Name": "Payer",
+        "Bank_Account": "HDFC",
+        "IFSC": "HDF01",
+        "Account_Type": "Savings",
+        "Address": "payer_address@123",
+        "Mobile_Number": "9887776676",
+        "Mail_Id": "mohoan@gmail.com",
+        "Ip_Address": "1235@fghj",
+        "Balance": "690000.90"
+    },
+    "Payee_Details": {
+        "Payee_PSP": "PhonePay",
+        "Payee_Name": "Payee",
+        "Bank_Account": "ICICI",
+        "IFSC": "ICIC01",
+        "Account_Type": "Savings",
+        "Address": "payee_address@123",
+        "Mobile_Number": "9886662222",
+        "Mail_Id": "deepak.h@gmail.com"
+    }
+}
+
+D:\TEKPYRAMID DOC\DataSimulationToolData>

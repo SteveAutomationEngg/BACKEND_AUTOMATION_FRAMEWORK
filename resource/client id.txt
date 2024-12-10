@@ -1,0 +1,4 @@
+client_id          ninza-client
+client_secret      gPQBf1Yxew5OMccMhzos1GefIyiSnXzM
+grant_type         client_credentials
+redirectURL(post)  http://49.249.28.218:8180/auth/realms/ninza/protocol/openid-connect/token

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.ninza.hrm.api.project_UsingUtilitytest.Project_UsingUtilityTest"/>
+      <class name="com.ninza.hrm.api.employee_UsingUtilitytest.Employee_UsingUtilityTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

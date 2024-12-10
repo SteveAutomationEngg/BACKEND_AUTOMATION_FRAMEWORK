@@ -1,0 +1,13 @@
+Microsoft Windows [Version 10.0.19045.5073]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\TEKPYRAMID DOC\DataSimulationToolData>java -jar "D:\TEKPYRAMID DOC\DataSimulationToolData\PaymentMockServer.jar"
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+======>CREDIT CARD MOCKING SERVER RUNNING<====
+
+"======>CREDIT CARD MOCKING SERVER RUNNING<====" is show Mocking server is running
+
+
+press ctrl+c to shutdown/close the server
